@@ -1,1 +1,106 @@
-a
+idea -> game -> consumer
+
+Game: 
+
+production: idea->game 
+design: idea-> systems that consist of the game (rules, outcomes, etc.)
+development: concept->game (concept into the physical game ) 
+
+Four GIGA roles: 
+Designer - Artist - Programmer - Producer               ***4 MAX in Group***
+individual/team                                         *** these are the dev, not the publishers***
+
+Designer 
+    - "Writer/Author" 
+        - Creates a "one pager" from idea - **GDD Game design Document** "Pitch"
+        - Elevator Pitch guy 
+            - One pager
+                - Relate this game to something else (easy comparison)
+                - Elebvator pitch
+            - GDD 
+                - Details every single aspect of the game 
+                - BLUEPRINT 
+                - No implementation details for each item *CONCEPT*
+Programmer 
+    - Person/team who structeres the code for the game 
+        - Designs the  software structure based on the GDD
+            - Game code resides on top of the engine 
+        - GAME code
+        - Frequently tests it for quality assurence, track down bugs 
+    - Creates the Technical Design Document (TDD) from the GDD
+        - Details all the specifics 
+            - Major game elemnts, logics, AI
+        - Identifies technical challenges and potential solutions
+        - What tech used 
+            - Prog lang, Engine, phys engines, libraries, etc \
+        - Game objs(nouns) and components (verbs)
+            - Game obj has components, what the obj do 
+        - Tech requirements for the game assets 
+            - Talk to the artist for whats going on w the assets 
+                - file formats
+                    - json, webmp, mp3, etc. 
+                - equalizer for auido, make sure the sizes are right, faces are correct, etc.
+                - also make sure the game obj is seperated from the artist's obj for that obj 
+        - Task list 
+            - generic deadlines, milestones, YOU are in charge of this part
+                - what needs to be done by X, as YOU are the game. 
+    - Software Designer 
+Artist 
+    - creates the look/feel of the game 
+    - ALL the game assets 
+        - color pallette, auido, dialog, etc. 
+    - Specializations 
+        - Musicialns, foley, 2d/3d
+            - foley = sound effects
+    - Story designers 
+        - nitty gritty parts of the story, more than the Designer 
+            - story != play/game 
+                - contextualizes the game
+    - Art list 
+        - comprehensive list of all the game assets
+            - compunds off of the TDD 
+            - Assets are in here 
+Producer 
+    -  oversees entire game from start to finish 
+        - communicates with all the other roles 
+    - "Team Leader", sometimes is the Designer, somethimes not 
+    - Keeps everyone on track 
+        - Acts as an intermediatary for the other roles
+    - Actual positions between each development/publishers vary 
+    - Views everything in a slightly dif way
+        - each section is broken into seperate phases 
+        Concept 
+        - Coordinates w game designer, helps GDD 
+        Preproduction
+        - Designer and selecting the team members (who does what) 
+        - Artists/Art lists
+        - Scheduling (milestones) 
+        - Budgeting 
+        Production         
+        - Coordinate w programmers and artists 
+        - proof of concept/ first playable demo 
+        Post production 
+        - QA 
+        - Post mortem
+            - what happenned, entire timeline/biography of this production, feelings, etc. 
+
+
+Game production process 
+                                Designer/GDD 
+                    Programmer/TDD        Artist/Art List   
+                                    GAME
+    Designer has the larger overall GDD, programmer and Artist work parallell with one another
+
+
+---PUBLISHING---
+    -Publishers sell the games
+        - Hold all the money (Devolver)
+    - Consist of 
+        - Buisness teams
+        - Marketing teams
+        - Legal 
+    - Money to the production teams
+    - Coordinates w the producer about the game 
+    - distrubutors, manufacturers, retailers for sales 
+
+    
