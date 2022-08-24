@@ -1,0 +1,182 @@
+3 games:
+aaa
+physical game: basic game design
+
+
+2d game: GAME JAM (pog)
+
+final is the last game:
+3d model, all from scratch
+
+igda 
+
+--itinerary--
+intro to gamedev: basic elements
+2d game process 
+    - Unity (possible for other engine) 
+    - C#
+3D games 
+    - GPU usage
+    - Dev mode 
+        - Provide updates, prof gives advice based upon such
+
+- Additional lectures from outside (extra)
+    - events outside of school
+        - GDC Game dev conference 
+
+Primo class (FIRST) to be taught 
+
+
+**************************** 
+
+Game = ?
+
+1938 - games start w play 
+    - Homo Ludens : Johan Huzinga
+    - Freedom: placing inside the game. Game =  current reality
+    - Seperation: Game = seperate from normal life. (no DMV in a sense)
+    - Duration: Game = time away from normal
+    ------------------------------------------
+    - Play is played on its own (no stakes within itself)
+    - Play = causes society/culture, exists before lang, music, and as a result so do games 
+    - PLay = Law (i.e. court rules) War (tribal rules)
+        - Essentially, "play" is based off of idea of agreed ruling 
+            - implications on society 
+1961 - 
+    - Man, Play, Games : Roger Caillois
+    - greater specification on what a game is 
+        - Free: playing isn't obligitory
+        - Seperate: away from reality 
+        - Uncertain: level of unpredictability such that the game becomes interesting (not-fixed)
+        - Unproductive: game should be played based upon personal want (not work)
+        - Rulings
+        - Make-Believe: second-reality away from current reality 
+    - Two Types of Play 
+        - Paidia : Play w/o rules
+        - Ludus : play w rules 
+    - 4 play forms 
+        - Agon: competition
+        - Alea : Chance (gamba)
+        - Mimicry: RP 
+        - Ilinx: Perception Disruption 
+            - i.e. going on a thrill ride 
+1970 -
+    - Serious Games : Clark C. Abt
+    - "games can be used to teach/train" 
+    - Definitions 
+        - Activity : game is an events
+        - Descision makers : Players who make decisions
+        - Objectives: there's a goal
+        - Limiting context: Rules are limited to the game 
+1984 - 
+    - The art of computer game design : Chris Crawford
+    - defined a game by what it wasn't before what it was 
+        - not this, so is this 
+    - Representation 
+    - Conflict 
+    - Interaction 
+    - Safety : illusion of reality not being real 
+    _*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+2003 - 
+    - Rules of Play : Salen and Zimmerman **********
+    - " Players engage in an artificial conflict defined by rules tht results in a quantifiable outcome"
+    - Def 
+        - System: group of interacting elements that create X 
+        - Participants : people interacting
+        - Artifical: not within reality 
+        - Conflict: contest of powers (man x man, etc)
+        - Rules: defines what players can/can't do 
+        - Quantifiable outcome: determines if player wins/loses. 
+            -distinguishes games from less formal play 
+    _*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+Defining a video game   
+    Previous game rulings still apply    
+    ANY TYPE OF GAME W AN ELECTRONIC PART is a vid game
+    chess, sports, card games, are physical games ( no ele elements)
+
+    -analog or digital ele items
+
+***************************************
+History of vidge games 
+
+    "Bertie the Brain" - tik tak toe #1
+        - 1950 canada world fair
+        - first AI usage 
+    "OXO" knots and crosses
+        -1952 
+        - sandy douglas 
+            HCI Thesis : Human computer interactions
+            EDSAC : mainframe puter used an oscilliscope tho display OXO
+    "Tennis for Two" 
+        - 1958
+        - William Higinbotham 
+        - oscilliscope pt 2.
+            -PHYSICS GRAVITY
+    "Space War" 
+        -1962 
+        - Steve "The Slug" Russel
+        - DEC PDP-1 puter 
+            - Shared opon internet, placed in floppy disc 
+                - First usage of a shared vidge game 
+    "Brown Box" 
+        - 1967 
+        - Ralph Baer
+        - in the smithsoneon 
+        - prototype for the first consumer game system 
+    Computer Space (space war pt 2)
+        - Nolan Bushnell + Ted Dabney 
+            - Nolan made atari 
+        - 1st coin op videogame 
+    "The Oregon Trail" 
+        - 1971 
+        - came out before puter monitors
+            - printed to sheet 
+        - Don Rawitsh (student teacher made for kids)\
+    "Magnavox Oddesy" 
+        - 1972 Sept 
+        - No CPU or onboard mem 
+        - drew a dot onto screen, control boards were placed into it to provide alterations to the dot (the games)
+            - plastic overlays to provide an image 
+    "Pong"
+        - 1972 Nov 
+        - Allan Alcon 
+            - ele engineer created erethang at ask of Nolan + Ted 
+    "Fairchild Channel F" 
+        - 1976 
+        - First console w interchangable ROM cartridges 
+            - Jerry Lawson ^^^
+    "Atari VCS" 
+        - 1977 
+        - Classic 
+    "Space Invaders" 
+        - 1978
+        - Taito 
+        - Giga selling video game 
+        - Came to Atari in 1980
+            - giga giga sells 
+    "Pac-Man" 
+        - 1980 July 
+        - Namco 
+        - Supah sales 1981-1982
+    "Donkey Kong" 
+        - 1981
+        - Nintendo
+        - Miyamoto 
+    -1983 - 
+        crash of the game industry
+        "novelty games"
+        no quality control (i.e. ET)
+
+    "King's Quest 1" - PC game 
+        - 1984 
+        - Roberta Williams 
+        - IBM PCjr
+        - Detailed graphics and animations
+            - storytelling ++
+    Nintendo Entertainment System 
+        - 1985 
+        - GIGA rezzed the industry
+    "Super Mario Bros" 
+        - Parrelax scrolling 
+    
+    
