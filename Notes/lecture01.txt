@@ -7,7 +7,7 @@ physical game: basic game design
 
 final is the last game:
 3d model, all from scratch
-
+a
 igda 
 
 --itinerary--
