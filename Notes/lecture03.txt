@@ -1,0 +1,116 @@
+game design
+
+schema
+    - representation of a plan/theory
+        -Games specifically 
+            - Cultural 
+            - Play  
+            - Rules
+        - We're just focusing on play and rules
+    
+Rules Schema 
+    - formal primary schema that focuses on the logic of the game 
+        - facts/policy on how you interact w the game 
+        - NOT the experience of the player
+    - generally 
+        - not what the player CAn do that makes it fun, it's what they can't do 
+        - shared by everyone
+        - binding
+        - fixed and direct 
+        - repeatable
+    - 3 catagories 
+        - Constituative - math part (points, damage, etc.)
+            - Game logic 
+            - Doesn't indicate how the player should enact the rules 
+        - Operational 
+            - Direct the player's behavior
+            - Found in instructions
+        - Implicit
+            - "Unwritten" rules
+                - behavior and ettiquete 
+        - this gets wonky w digital games 
+            - are the code constituitive or operations
+                - it both dawg 
+
+Games are a complex system
+    --- fixed, periodic, complex, chaotic ---
+    Games that lack complexity lack meaningful play 
+        - complex systems allow for greater space of possibility (better play) 
+    More rules != more complex 
+        - complex possibilities are the result of a simple rule set 
+    create rules, indirectly create experiences
+    
+    Uncertainty
+        - if it's completely predictable it's poo poo garbage
+        - Chance/Probability is OK
+            - RNG 
+        Risk is outcome w known Probability
+        Games combine risk and reward 
+
+    Information 
+        -can be an economy because of it's value within the game 
+        
+        - perfect info is when eereone knows all knowledge in the game 
+        - Imperfect info is when only some know about some
+        4 types 
+            - known to all 
+            - Known to one 
+            - Known by the game 
+            - generated randomly 
+    Conflict 
+        - every game has some form of conflict 
+            - yea, every game 
+        - all games are competitive 
+            - players struggle w each other, w the system 
+        - all games are cooperative 
+            - same deal 
+        - win/loss conditions result from conflict 
+        - ptw is technically a game design, in which the conflict "breaks the circle" 
+Play Schema 
+    play is an experimental primary schema in the games 
+        - focuses on the experiences of the players 
+        - Ludic activites 
+            - non-game behaviors where participants are playing 
+        - two types 
+            - Paidia 
+            - Ludis - rules 
+        - 4 forms 
+            - agon
+            - alea
+            - mimicry
+                - be a char in the system 
+            - roleplay
+                - wierd sense where you're removed from reality
+        - experienced through participation
+            - books = read movies = watched games = played 
+                (increasing levels of understanding in relation to interaction)
+            - core mechanics 
+                - collection of actions that are repeatable throughout the game 
+    ___Flow___
+    -- it is what it is, the "flow state"--
+        - behavior theory 
+        - reinforcement schedule 
+            - rate that players recieve reward/punishment
+        - Challenge shapes the player's experience
+            - anxiety : Challenge > Skills 
+            - Boredom: Skills < Challenge 
+            - Flow is the between
+    Narritive 
+        - subsection of the story 
+            - experience of the game 
+                compesed of situation, char, and form 
+            - Embedded narrative is the pre-generated components
+            - Emergent narrative is created by the players through their interactions with the game 
+                - "let me solo her"
+            - Goals, conflict, uncertainty, core effects
+                - narrative is used to ENHANCE the game 
+            ludo narrative dissonance
+                - 'hey this doesn't make any sense' : takes you out of the flow 
+    Simulations 
+        - all games simulate, not all simulations are gmaes 
+            - simulate conflict in a few ways
+                - territorial conflict
+                - economic conflict 
+                - Conflict > knowledge 
+            - sims are abstract
+                - how to use gaming tech to create sims 
