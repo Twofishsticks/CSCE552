@@ -1,0 +1,59 @@
+Ideas for the 2-D game (due as of writing this next friday 9/9/22)
+
+Herbicide - card game
+    - think unicorns + that one critter citybuilder game 
+    ***Everdell https://boardgamegeek.com/boardgame/199792/everdell
+    ***Unstable Unicorns https://www.unstablegames.com/collections/unstable-unicorns
+
+        - 2+ players, each start with 1,2,3 etc. "seeds"
+            - seeds are the currency, but the one with the most PLANTS win at end of game 
+            - cards "cost" seeds to plant in your own garden 
+    - each player has basic hand max of 7, augumented by cards in play 
+    - Theme is more halloween-esque then anything else: plants come to life
+
+    - Coloring on cards: 
+        - Affects-to-icon coloring 
+        - Red = Harvest     Blue = End of Turn      Green = Reap    Yellow = Sow    Non Icons = Grey
+        icons: Scythe               moon            generic leaf      sprout
+        - actual color in the card art can be anything 
+    
+    - gameplay: 
+        - Reap, Sow, Harvest (also cool game tagline)
+            - Reap: gather any seeds your garden may produce (specific icons)
+                - players can order the way these resolve
+            - Sow: Play up to one card from your hand/compost
+                - Use seeds to pay for the cost of planting them 
+            - Harvest: Activate up to one ability on your plants 
+                - One player activates one ability
+            - End Turn 
+                - draw a card, activate any/all end of turn abilities 
+                    - card is drawn from deck unless otherwise stated
+        - can create a reminder card with these rules, as it's pretty simple
+
+    -additional mechanics 
+        - Compost bin 
+            - set of 9 total cards set for all players 
+                - acts as a "shared hand" 
+                - all players may play from this 
+                - Center card is a wincon:
+                    - Power Plant: 30* seeds - win the game (balance of price?)
+                - end of turn replaces any empty slots in the compost pile 
+                
+    - Ways to win: 
+        - giga plant (power plant, other name) - see compost bin 
+        - steal all other player's seeds (may be "not fun enough" for the other people)
+        - have 10* total plants in garden (may need to alter this number based on scaling)
+            - alternatively, make this a constraint while playing, say each player can OPNLY have up to 10, and the only wincon be the center giga plant
+        - other cards that say "you win if..." (possible, but balance-wise may need to stay away)
+    - DOWNSIDES!!!
+        - have to design somewhere between 20-40 cards 
+            - not a GIANT ordeal, create the base of the card, what goes where, etc. 
+            - can use placeholder art for now, art isn't the main focus 
+        - If the cards aren't fun, the game isn't fun. 
+        - Manual is going to be hefty in terms of including cards, but it's doable
+    - UPSIDES!!!
+        - player interaction is delt through cards, element of RNG
+        - central compost bin allows for players to not be "jipped" as game progresses
+        - I've had fun playing these types of games before
+
+    

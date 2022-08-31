@@ -1,0 +1,76 @@
+Game software structure 
+    - software patterns 
+        - ex. singletons, facades, factory pattersn, etc. 
+        - game engine drives the game code 
+            - provides framewrok so that the game can be created quickly like w librarys and such 
+        - Game specific code 
+            - the rules of JUST YOUR GAME, not the libraries 
+        - Game engine - code -access game engine for libraries 
+        - Game engines are an exercise in black box coding 
+            - can't see the main methods, can't see anything, you just have what you're given not erethang 
+            - extensions from whatever you're given to make what you want 
+                - read the documentation: tells you what that thang do 
+        - Essentaially, just see what you've got, read it, test it, etc. to get what u want
+    - Game objects contain components 
+        - Game objects perform behaviors 
+        - Everything in the game is a game object 
+            - game objs are not classes 
+    - components are the "verbs" 
+        - enemy/player is a component of the game object 
+            - NOT object oriented programming 
+
+Component pattern 
+    - structure that decouples actions 
+        - create classes of the actions and asssign it to the class object 
+            - GIGA POLYMORPHISM 
+            - actions be like "control this" or "punchable" etc. 
+                - stick the actions to what the objects are 
+
+oop approach 
+    - make stuff under a shared object so that everything is doled out appropreately 
+        - do that like the super class 
+component based approach 
+    - do the actions first 
+        - game engine -> came object -> Component <-(literally every single item)
+            - Inheritance is bad for FPS 
+
+Component Diagram 
+    - denote every game object
+        - identify actions
+            - assign objects to where thay belong to each object 
+Transformation Component 
+    - holds the location, orientation, scaling of a game object 
+        - Also handles the calculation of altering location, orientation, scale
+        - Hierarchies apply 
+            - If item moves, then child moves as well 
+
+Game software sequence 
+    - Game loop 
+        - starts and ends 
+            - events -> update -> draw 
+        - it's how the components are updated as the game progresses 
+        - heirarchy of events 
+            - ex. collision -to-input 
+        - make sure that THIS IS FAST
+            - fast = better 
+            - practical efficiency
+        - double buffering pattern  
+            - draw the frame while still having the old one visable 
+            - drawing not fast enough creates screen tears
+            - but game engine handles these things
+
+Component intefaces
+    - polymorphism is giga needed
+        - header files, interface (java) etc.
+
+Outside of the game loop
+    - init step:
+        - game object starts 
+        - not a constructor: games don't use a constructor
+    - finalization
+        - game object ends 
+        - not a destructor: games don't use a destructor
+    - mem management
+        - mem leaks
+        - possible need to ovverride the universal destructor function
+    UNITY is the one that this class is gonna use, make sure to download it 
