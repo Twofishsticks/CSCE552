@@ -1,0 +1,70 @@
+2D game example part 01
+
+game concept: single player 3d action singleplayer game 
+NAME_ GAMETYPE using genres_ (make sure the entirety of the game is laid out in terms of what game each part is)
+
+"One hit from the laser will destrpy an asteriod" - short, sweet, giga descriptive
+    -   health, damage, % of each 
+"Player has given amount of health that will decrease when they hit an asteriod" 
+    - ambiguity with the damage 
+        - make sure that this descriptor is working as intended 
+
+"Player will survive set amount of time before they reach the planet" 
+
+" game displays current time left and the health of the player" 
+
+"The player can pause the game and resume during this part of the game"
+    - giga important, pause = proffessional 
+Save game 
+
+After X, "the game switches to platformer"
+    - assumption is that this is a pre-generated level 
+
+Player has set amount of health is different from the space section
+    - pretty important distinction
+** it's ok to change the game a bit **
+
+after full descritpion of each sectoin, label the total repetitions for each mode
+Game features: main menu, pause menu
+    - main menu allows the player to X,Y,Z 
+
+develop
+
+Game code: 
+    spaceshipmove, collider, fire lazer, space ship health, rigid body are all in :
+        player 
+    
+Unity game engine 
+    editors that allow for quick game dev 
+        - segments the interface ti represent the different parts of the game 
+        - import org components 
+
+    proj section 
+        - RESOURCES section 
+        - scenes, audio, 3d models, code 
+    hierarchy 
+        - game obj are contained within the scene 
+        - for parent/child transformations 
+    inspector 
+        - components are in the inspector 
+        - assign here 
+    view port
+        - see what game obj are in teh scene 
+        - tabs: main camera view, run the game itself 
+    control buttons
+        - play, pause, advance game 
+    
+    toolbar - create empty game obj 
+        - auto add to game Hierarchiey
+    add sprite
+        - rclick -> create folder 
+            - " sprites" 
+                - png has transparency pretty easily 
+                - jpeg don't have a transparency llayer
+        - drag and drop (giga easy) 
+            - drag into the player obj 
+            - transistion is relative to the next level of heirarchy
+                - local scale/pos 
+                - this is GIGA OMEGA IMPORTANT 
+    C# looks like java + c++
+    creating a new C# script in unity will create a class that inherits from MonoBehavior
