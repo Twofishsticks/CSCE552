@@ -1,0 +1,29 @@
+Vampire Survivors -esque game
+
+    -- Name: Sk-etched
+
+    Design notes
+        - Chalk based 
+            - gives E rating, plus leeway with sprite design 
+                - Slingshot as weapon of choice 
+                    - inf ammo
+            - Variability with "monsters"/enemies
+        - Arena
+            - limited space to work with (i.e. the "chalk board")
+            - allows for more limitations, "backing into corner" type stuff
+            - Design-wise, limit is the edge of the board, background is the board space 
+        - monster spawns 
+            - outside of fov, link to camera 
+                - variations on sprites = ways to fufil sound requirement 
+        - Win/Loss
+            - Win upon reaching time limit 
+                - may alter to include inf time limit, scoreboard w best time 
+            - Loss on no more life 
+                - Life is in 3x
+                    - Life loss upon taking damage from monster attacks 
+        - Fun factor 
+            - See success of 20 minuites, Vampire Survivor, ets 
+            - Upgrades dropped from random monster deaths
+                - dif powerup from dif monster (?)
+                - Upgrades may be permanent or temporary based upon balancing
+                    - i.e. shotgun, heal, AOE nuke, instakill, etc. 
