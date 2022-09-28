@@ -1,0 +1,136 @@
+pausing
+    time * deltaTime -> alter time scale to zero
+        - physics manager also uses this 
+    edit-proj settings- input manager 
+        - edit size of array -> makes a duplicate of a premade setting 
+            - rename to pause, edit everything to comply 
+                - Type-> key/mouse button 
+                    - Positive/neg button: "escape"
+    " If Input.GetButtonDown("Pause") && currGameScene >= 0 // make sure the game is not in the main menu
+         pause (below)
+    void Pause() {
+        if not pause {
+            // pasue game 
+            Time.timescale = 0 // OMEGA IMPORTNAT
+        }
+        else  {
+            Time.timescale = 1 
+            pause = !pause 
+        }
+    }
+    -- 
+    add game manager, ui, canvas. 
+        - making some buttons 
+            - make a resume button/ place it correctly 
+            - on click, ask it to send message "Pasue" through GameManager script 
+        - second button, main menu 
+            - ask same, but to menu
+        - 3rd, quit 
+            - same, to Quit 
+                - code is "Application.Quit(0)"  -> closes application 
+    still want to make it show/hide on escape press over top of everything 
+        - Canvas button [ ] name needs to be unchecked 
+        - **** not restarting the object, just hiding it **** 
+        - in start function in game manager 
+            -- just in case things --
+            - pauseMenu.SetActive(false)
+            - timescale = 1 
+            --                     --
+    - make in pause 
+        - pauseMenu.SetActive(!pause) // reverse the show/hide on each call 
+    
+
+
+    AUDIO 
+        - add music/sound effects 
+            - Assets -> make music folder 
+            - dragdrop it 
+                - it's giga self explanitiory in terms of altering it when in editor 
+        - make an "Audio Listener" within the camera
+            - can put it on other objects as well 
+                - Component, Audio, Auido source
+                    - Access in code possible, using the correct documentation
+        - source and listener need to be inside the same object 
+        
+        - sound effects 
+            - source playing clip, since the listener is already in the camera 
+                - in "lazer", add component-> Audio, Audio Source 
+                    - Play on Awake 
+                        - Plays when instantiated, NOT ON LOOP 
+
+
+Animation 
+    - built on frames 
+        - onion skin animation 
+            - layer it on top, draw next frame, continue indefinately to create "motion" 
+            sprite sheet - adjust how things are imported 
+                - one single image, with the smaller images are the actual cells 
+                    - matrixed from left to right 
+                        - change into multiple, activates a macro. 
+                            - sprite editor
+                                - i.e. ide frames are up top, with another set of it below 
+                                - slicing it up: base 2 normally, used to fix the dimensions 
+                                - i.e. each frame is 64 by 64. 
+                                    - red lines will show exactly where each cut will be 
+                                works if on save, the sprite sheet in engine is split into the individual frames 
+                    - El classico 
+                        - base game obj, player, drag drop full sheet under obj 
+                            - makes it so that scaling is functional 
+                        - window - animation - open new window 
+                            - timeline is opened, diamond per keyframe (just like blender's animation)
+                            - create idle 
+                                - currently: NO frames
+                                    shiftclick the idle frames to drag drop into new window 
+                                        - can stretch/shrink 
+                                - clip is made 
+                            - Create walk 
+                                - use other frames the EXACT same way as the prior
+                        - inside player - sprite sheet in animator component 
+                            - double click, opens the animator tab 
+                                - doing this in the visual coding thing
+                                    - entry -> idle 
+                                        - rclick -make transition
+                                        - idle -> walk 
+                                        - has exit time makes it much more natural 
+                                    ---access this through code---
+                                        - in parameters 
+                                            - add a trigger
+                                                - ex. StartIdle
+                                                - ex. StartWalk - both are just events 
+                                            - add triggers under conditions (right side) 
+                                                - transitions are based on the triggers through the conditions 
+                        - making it work 
+                            - scripts-> new -> platformer move 
+                                - want to attatch this animation to the player game obj 
+                                    - animations and assets like collisions are decoupled (make them seperate) 
+                                - Animator obj; 
+                                - SpriteRenderer sRender; 
+
+                                SOMEWHAT REAL CODE     
+
+                                start {
+                                    obj = GetComponentInChildren<Animator>();
+                                    sRender = GetComponentInChildren<SpriteRenderer>();
+                                }
+
+                                update { // janky code writing btw 
+                                    float horiz val = Input.GetAxis("Horizontal);
+                                    if MathF.absVal(horiz val) > 0.5f { // there is motion 
+                                        obj.ResetTrigger("StartIdle");
+                                        obj.SetTrigger("StartWalk");
+                                    } else { // no motion 
+                                        obj.ResetTrigger("StartWalk");
+                                        obj.SetTrigger("StartIdle");
+                                    }
+                                // flipping it left/right based upon sprite walking 
+
+                                // in start 
+                                    if (horiz val > 0.5f && !facingright) {
+                                        sRender.flipX = !sRender.flipX;
+                                        facingRight = !facingRight;
+                                    } // same deal the other way 
+
+                                // super good for not making 2x the amount of sprites
+
+                                
+                                }
