@@ -7,7 +7,7 @@ public class EnemyWalk : MonoBehaviour
     // Start is called before the first frame update
     // documentation of base idea https://docs.unity3d.com/ScriptReference/Vector2.MoveTowards.html
     private GameObject player;
-    private float speed = 1.5f;
+    private float speed = .5f;
     void Start()
     {
        player = GameObject.FindGameObjectWithTag("Player");
