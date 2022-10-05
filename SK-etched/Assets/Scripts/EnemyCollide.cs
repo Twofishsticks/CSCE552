@@ -15,7 +15,7 @@ public class EnemyCollide : MonoBehaviour
         Collider2D[] borderColliders = border.GetComponents<Collider2D>();
         foreach (Collider2D c in borderColliders)
             Physics2D.IgnoreCollision(thisCollider, c); // no overlap = no gmod collision. check if that's ok
-        sceneManager = GameObject.FindGameObjectWithTag("Scene Manager");
+        //sceneManager = GameObject.FindGameObjectWithTag("Scene Manager");
     }
 
     // Update is called once per frame
@@ -30,11 +30,9 @@ public class EnemyCollide : MonoBehaviour
         {
             
             Destroy(this.gameObject);
-            // -1hp here 
-
-            // should we make the dudes "die" on hit? maybe give the enemies -1 hp
+            
         }
-        else if (collision.gameObject.tag == "Laser")
+        else if (collision.gameObject.tag == "Projectile")
         { // be sure to change tag w weapon/player team
             
             Destroy(collision.gameObject);//Destroys the weapon/bullet
