@@ -1,0 +1,29 @@
+3D basics! From this point on, it's all either 3D or various topics outside of 2d/basic game ideas 
+
+vert, triangles, everything in between 
+    - vertex : data for something (not just a position) 
+        - pos vertex: single point in 3d space 
+            - x,y,z (3D Vectors)
+    - edge 
+        - ordered set of of 2 verticies 
+        - vector of vectors (point to [point) to point]
+            - subtravt 2 vectors to get the edge 
+    - triangle 
+        - polygon of 3 edges, each edge has 1 vertex w another edge 
+            - fundamental element of a 3d model (face) 
+        - order needs to go c-clockwise in order to face cam 
+
+    - face 
+        - wither triangle or quads 
+            - trangles are preferred 
+                - GPU are optimized to handle them better 
+                - easy to align 
+        - Normal vect:
+            - perp vactor to the surface 
+                - cross product of 2 edges of a polygon 
+                - it's what the 3d cam sees (no back)
+    - Mesh 
+        - collection of erethang that makes the 3d model 
+            - sub mesh = surface 
+    
+        
