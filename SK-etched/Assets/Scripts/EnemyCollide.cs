@@ -30,6 +30,7 @@ public class EnemyCollide : MonoBehaviour
         {
             
             Destroy(this.gameObject);
+            // tell scene to change to lose screen
             
         }
         else if (collision.gameObject.tag == "Projectile")
