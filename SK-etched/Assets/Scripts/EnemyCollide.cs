@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyCollide : MonoBehaviour
 {
@@ -28,10 +29,7 @@ public class EnemyCollide : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            
-            Destroy(this.gameObject);
-            // tell scene to change to lose screen
-            
+            SceneManager.LoadScene(3);   
         }
         else if (collision.gameObject.tag == "Projectile")
         { // be sure to change tag w weapon/player team
