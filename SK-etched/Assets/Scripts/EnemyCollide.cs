@@ -28,8 +28,9 @@ public class EnemyCollide : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
-        {
-            SceneManager.LoadScene(3);   
+        {   
+
+            SceneManager.LoadScene(2);   
         }
         else if (collision.gameObject.tag == "Projectile")
         { // be sure to change tag w weapon/player team
