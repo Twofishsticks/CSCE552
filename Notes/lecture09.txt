@@ -1,0 +1,75 @@
+// Proj notes
+Advertisements for the game design is a focus of dr jj. Brownie points for making it marketable for future classes/showing off the school
+Don't use advanced shading in Blender. 
+    - Unity and Blender have dif shader settings 
+    - Super advanced shader items HAVE to be done within Unity 
+    For normal planes (face forward planes) that aren't normal when need to be 
+        - Edit -> planes flip mesh -> invert normals 
+            - top right -> overlays, display normals 
+                - wireframes is great w clipping
+
+As long as the game mechanics shine through, the game is good. 
+
+// Optimizations in Games 
+
+Game loop MUST be quick (events -> update -> draw)
+    - Where to Optimize, WHEN to optimize 
+
+Dev time is just as big as in-game time 
+    - Optimize when things go bad 
+        - If no problem visable in game, no problem 
+
+Data Locality 
+    - Games are super heavy w data. 
+        - speeds are dependant on WHERE the data is located 
+            - (basic memory rundown-> registers, cache, RAM, hard drive, etc.) <- ranked in speeds
+                - chache is what u want from here. chache and it's relation to RAM 
+                    - avoid super long inheritance chains, those are no bueno for memory
+                    - array is good
+
+        - Dirty Flag (dirty bits)
+            - says if something was messed with recently. 
+                - if yes, change just the bit, leave everything else alone 
+                    - This is "in front" of the other unneccesary checks with the actual memory
+                        - super good
+                    - (Operating Systems class)
+        - Object Pool 
+            - Fragmentation happens when continuous creation/deletion of objects 
+                - Fix by ship everything together, make it one "big" object 
+
+                - OR pre-make array of X objects, keep track of where at in array per object status
+                    - outside of map, on "make" move it to where it's supposed to be, on "delete", move it back
+                **** NEVER CONSTRUCT OBJECT IN LOOP ****
+                    - allocate in loop, deallocate in loop is lots of proccess time 
+                    - Just make it all before
+                        - i.e. "Loading Screen"
+                - Defining game object should only happen in start/end 
+                
+    - Tree 
+        - Quickly sort data structure
+        - "Cull" out amount of apperations to do 
+            - essentailly, if object in in quadrant X, only look in X, not A,B,C 
+                - divide space into quadrants, then check the higher-up on the tree, work down
+                    - load just what's in subquadrant 
+            - Level of Detail 
+                - high polygon model 10000k away, can't see that far away. 
+                    - so, make it detailed first, then medium, then less polygons 
+                        - don't waste time w drawing things 
+                        - what's drawn is determined by tree
+    - Frustum Culling (don't need to worry about it w Unity)
+        - draw stuff only within a looking view 
+            - trapazoid from camera, anything inside is drawn. 
+    - Back Face Culling (Unity Select)
+        - Surfaces normal = not facing camera 
+            - Don't draw non-normal surfaces 
+            - INVERT NORMAL if it don't work right in blender 
+    - Occlusion Culling 
+        - essentailly, can't see it, don't draw it 
+            - Don't draw faces of object that are behind another object 
+        - "Bake" a scene 
+            - pre process a scene 
+                - In this case, base the scene into the cells, determine what triangles/objects are shown to player 
+                - these things are made waaaaay before the game is actually played
+                    - ex. thing casts shadow, doesn't change, so throw away shadow and make the shadow a texture where the shadow would be
+        
+    
