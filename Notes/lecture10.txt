@@ -1,0 +1,90 @@
+// Proj Notes / end of semester stuff
+- turn in source code and exe for the proj (prototype)
+- show off the game as a demonstration (final proj) 
+    - Also includes a post mortem
+
+- Next monday (11/21): mobile game guest to show off what they do 
+    - dude's name is "DJ", career advice here!
+
+--Serious Games--
+The majority of the class is in the "programming" section of game creation 
+
+Now, it's time to look into the "design" part of game creation 
+
+1938 "Homo Ludens" (concept of "play")
+    - Play has 5 characteristsics 
+        - Free = play, play = freedom 
+        - ordinary life is seperate 
+        - distinct from ordinary life 
+        - order is created 
+        - connected w no material intrest 
+    - All of these are realyed in lecture 1 (basics of what a game is defined as)
+
+1961 "Man, play, and Games" 
+    - Play styles 
+        - rules, no rules 
+            - Ludus, Paidia
+    - Play Forms 
+        - Competition, chance, RP, perception disrupting
+            - Agon, Alea, Mimicry, Ilinx'
+        - Interaction with a system rather than getting "lost in the sauce" 
+
+Serious games are Entertainment + _ 
+    - Teaching, Training, Persuasion, etc. 
+        - Used to convey a message
+    - Focus less on the "play", moreso on the "engagement"
+
+    - Clark Abt -> Serious Games 1970
+        - Games teach, games train (Lecture 01)
+            - Exploration of monopoly is detailed 
+                - Higher purpose of showing capitalism in Monopoly 
+            - Training is different
+                - Need to know the actual steps to do X 
+            
+    - Persuasive Games -> Ian Bogost !!2007!! 
+        - Coined the idea of persuasive games + procedural rhetoric 
+            - PR: game communicates beyond graphics, story, and ANY asset 
+                - THROUGH THE SYSTEM 
+                    - Idea is the system provides an argument to the player 
+                        - i.e. "second level": how everything interacts w others 
+                    - These play onto the actions of the player as the "play" 
+                        - Descisions, everything that's not truly "This does X, This does Y" is applied here
+            - 9/12 Game Example
+                - dealt w forign policy after 9/11 
+                - scren is middle eastern village, crosshair in center 
+                    - no how to, player plays 
+                - Crosshair aims, click, shoot 
+                    - people start attacking after shoot 
+                        - Main idea is "no info, but you shoot even with human lives"
+                            - even more in depth where lives aren't viewed as such (game) 
+                            - Win = don't click/pull trigger 
+        
+    - Critical Play -> Mary Flanagan 
+        - If you wanted a game to make sense, you need to make it in a specific way 
+            - Details an "activist game" 
+                - Essentially, the same as gthe normal game design loop, just more focus on the goals 
+                    - Make the endgame (the ideas) a priority
+                    - Things that don't adhere to the great idea create dissonance w the rest of the game flow 
+    
+    - Learn lang, dropped in the middle of nowhere (Train)
+        - "Total Immersion" 
+            - Price is right for english 
+        - Context clues are the main way to do such 
+            - Extend this idea into "serious games" 
+
+    - Rehabilitation (retraining) 
+        - Ephasiate 
+            - condition w head trauma/stroke 
+                - lost pathways that let people speak 
+                    - melodic intramation training (MIT)
+                        - Talking don't work, but sing do work! 
+                            - After sing, work back into normal speech 
+            - idea: match rythm game w therapy 
+                - Experience this therapy in a GIGA low stress environment
+        - Line up game with the values
+    - Critical interactive 2012
+        - Different games (ghost of the horseshoe)
+            - What defines the line between a "game" and a narrative? 
+                - real name is a "Critical Interactive" for narrative "games"`
+    
+
